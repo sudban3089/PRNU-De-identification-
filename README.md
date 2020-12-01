@@ -7,7 +7,7 @@ Banerjee and Ross, "Smartphone Camera De-identification while Preserving Biometr
 Take a look at our video for a short demo: (http://iprobe.cse.msu.edu/videos.php) 
 
 ## Requirements
-* MATLAB R2018a
+* MATLAB R2018a (should run on higher versions also but I have not confirmed it)
 * Deep Learning Toolbox (for periocular recognition, if DL toolbox is not available please comment lines 75-94 in
 Demo\_Anonymization.m and lines 101-120 in Demo_Spoofing.m) 
 
@@ -33,6 +33,8 @@ Camera used: F (Front camera) Laterality: RI (Right eye) Session: 01 Sample numb
 have larger sized reference patterns you can add them for evaluation, change the following scripts if you insert/delete reference patterns: `NCC_Computation_MLE.m`, `NCC_Computation_Enhanced.m`, `NCC_Computation_Phase.m` and `DispSensor.m`)
 
 ## Run the demo
+
+Download the folder on your desktop and run the following scripts: (Please ensure you are in the correct working directory) 
 
 * For PRNU Anonymization
 ```bash
